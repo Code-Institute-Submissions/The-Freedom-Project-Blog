@@ -1,0 +1,94 @@
+
+/* Colors */
+
+.bg-nav{
+    background-color: #546e41;
+}
+
+/* Navigation */
+
+.logo{
+    background: url(../images/logowhite.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height:150px;
+    width:150px;
+}
+
+.link{
+    color: #fafafa;
+    text-align: center;
+}
+
+.link:hover{
+    color: #8aab7e;
+}
+
+
+.nav-social{
+    padding: .5rem 1rem;
+    margin: 0 auto;
+    text-align:center;
+}
+
+.nav-social li{
+    list-style-type: none;
+    display: inline-block;
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fafafa;
+}
+
+.nav-social li i{
+    width:30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #756342;
+    font-size: 18px;
+    text-align: center;
+    line-height: 30px;
+    
+    
+}
+
+.bold{
+    font-weight:bold;
+}
+
+.nav-social li i:hover{
+    color: #8aab7e;
+    border-color: #8aab7e;
+    transition: all 0.35s ease-out;
+    -moz-transition: all 0.35s ease-out;
+    -webkit-transition: all 0.35s ease-out;
+    -o-transition: all 0.35s ease-out;
+}
+
+.toggle-nav{
+    margin-right:5%;
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: box-shadow .15s ease-in-out;
+}
+
+.toggle-icon{
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.toggle-icon i{
+    color:#fafafa;
+    font-size: 30px;
+
+}
