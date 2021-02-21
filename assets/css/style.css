@@ -156,10 +156,6 @@
 
 /* Profile Image & Bio */
 
-.bio-section-container{
-    height:300px;
-    
-}
 
 .bioimage{
     height:200px;
@@ -171,12 +167,18 @@
     margin: 50px auto;
 }
 
-.biotext{
+.bio-text-section{
+    height: 300px;
+    
+}
+
+.biotext{ 
     font-family: "Ubuntu", sans-serif;
     font-weight:400;
     font-size: 16px;
     text-align: center;
-    padding:20px;
+    padding: 0 30px;
+
 }
 
 
@@ -198,6 +200,12 @@
 
     .hero-text{
         top:10%;
+    }
+
+    /* Profile Image & Bio */
+
+    .biotext{
+        padding: 30px 75px;
     }
 
 
@@ -233,6 +241,19 @@
         font-size:18px;
     }
 
+    /* Profile Image & Bio */
+
+    .bio-text-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .biotext{
+        padding: 0 30px;
+    }
+
 }
 
 @media (min-width: 1440px){
@@ -247,6 +268,22 @@
     .logo{
         width: 175px;
         height: 175px;
+    }
+
+    /* Profile Image & Bio */
+
+    .bioimage{
+        height:250px;
+        width:250px;
+    }
+
+    .biotext{
+        font-size:18px;
+    }
+
+    .bio-text-section{
+        height: 350px;
+
     }
 }
 
@@ -288,6 +325,22 @@
 
     .hero-text h3{
         font-size:25px;
+    }
+
+     /* Profile Image & Bio */
+
+    .bioimage{
+        height:350px;
+        width:350px;
+    }
+
+    .biotext{
+        font-size:22px;
+    }
+
+    .bio-text-section{
+        height: 450px;
+
     }
     
 }
