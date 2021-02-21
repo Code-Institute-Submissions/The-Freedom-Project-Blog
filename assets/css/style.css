@@ -154,6 +154,31 @@
 
 }
 
+/* Profile Image & Bio */
+
+.bio-section-container{
+    height:300px;
+    
+}
+
+.bioimage{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    background: url(../images/profile.jpg);
+    background-size: cover;
+    background-position: center;
+    margin: 50px auto;
+}
+
+.biotext{
+    font-family: "Ubuntu", sans-serif;
+    font-weight:400;
+    font-size: 16px;
+    text-align: center;
+    padding:20px;
+}
+
 
 /* Media Queries */
 
@@ -264,4 +289,5 @@
     .hero-text h3{
         font-size:25px;
     }
+    
 }
