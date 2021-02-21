@@ -162,6 +162,9 @@
 
 /* Profile Image & Bio */
 
+.biosection{
+    height:100%;
+}
 
 .bioimage{
     height:200px;
@@ -173,11 +176,6 @@
     margin: 50px auto;
 }
 
-.bio-text-section{
-    height: 300px;
-    
-}
-
 .biotext{ 
     font-family: "Ubuntu", sans-serif;
     font-weight:400;
@@ -186,6 +184,8 @@
     padding: 0 30px;
 
 }
+
+/* Featured & Recent Articles */
 
 
 /* Media Queries */
@@ -287,10 +287,7 @@
         font-size:18px;
     }
 
-    .bio-text-section{
-        height: 350px;
-
-    }
+    
 }
 
 @media (min-width: 2560px){
@@ -344,9 +341,6 @@
         font-size:22px;
     }
 
-    .bio-text-section{
-        height: 450px;
-
-    }
+    
     
 }
