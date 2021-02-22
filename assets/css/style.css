@@ -345,7 +345,7 @@ body {
 
 .banner-image-contact{
     height: 30vh;
-    background: url(../images/ourstory-banner.jpg);
+    background: url(../images/cliffs.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -358,6 +358,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0,0,0,0.25);
     
 }
 
@@ -405,8 +406,24 @@ body {
         width:50%;
     }
 
+    .banner-image-contact{
+        background: url(../images/lahinch.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+
+    }
+   
+}
+
 
 @media (min-width: 1024px){
+
+    /* General */
+
+    .h1{
+        font-size: 2.25rem;
+    }
 
     /* Navigation */
 
@@ -457,6 +474,12 @@ body {
 
 @media (min-width: 1440px){
 
+    /* General */
+
+    .h1{
+        font-size: 2.5rem;
+    }
+
     /* Navigation */
 
     .navigation{
@@ -476,11 +499,18 @@ body {
         width:250px;
     }
     
- /* ------------------------------------------------------   Our Story Page Elements */
+    /* ------------------------------------------------------   Our Story Page Elements */
 
     .os-bioimage{
         height:250px;
         width:250px;
+    }
+
+    /* ------------------------------------------------------   Contact Page Elements */
+
+    .form{
+        margin-top: 100px;
+        margin-bottom: 100px;
     }
 }
 
@@ -490,6 +520,10 @@ body {
 
     p{
         font-size:1.5rem;
+    }
+
+    .h1{
+        font-size: 4rem;
     }
 
     .btn-general{
@@ -531,9 +565,6 @@ body {
         top: 10%;
     }
 
-    .h1{
-        font-size: 3.5rem;
-    }
   
      /* Profile Image & Bio */
 
@@ -569,4 +600,5 @@ body {
     .form-label{
         font-size: 1.5rem;
     }
+
 }
