@@ -3,12 +3,14 @@
 /* Typography */
 
 .h1{
-    color: #8aab7e;
+    color: #fafafa;
     font-family: "Ubuntu", sans-serif;
     font-weight:600;
-    font-size: 1.9rem;
+    text-transform: uppercase;
+    font-size: 2.5rem;
     text-align: center;
-    margin:10px;
+    padding:15px;
+    margin:0;
 }
 
 .h3{
@@ -17,7 +19,8 @@
     font-weight:300;
     font-size:1rem;
     text-align: center;
-    margin:10px;
+    padding:10px;
+    margin:0;
 }
 
 .bold{
@@ -45,7 +48,7 @@
     color: #fafafa;
     font-family: "Ubunutu", sans-serif;
     text-align: center;
-    
+    margin-top:15px;
 }
 
 .btn-general:hover{
@@ -84,7 +87,7 @@
     -o-transition: all 0.35s ease-out;
 }
 
-/* Colors */
+/* Backgrounds Colors */
 
 .bg-nav{
     background-color: #205975;
@@ -92,6 +95,11 @@
 
 .bg-article{
     background-color: #205975;
+}
+
+.bg-heading{
+    background-color: #8aab7e;
+    border-radius: 25px;
 }
 
 /* Navigation */
@@ -177,8 +185,6 @@
     width:80%;
     top: 6%;
     margin-left:-40%;
-    background-color: #205975;
-    border-radius: 25px;
 
 }
 
@@ -306,6 +312,38 @@
     margin-bottom: 50px;
 }
 
+/* ------------------------------------------------------   Contact Page Elements */
+
+/* Banner Image */
+
+.banner-image-contact{
+    height: 30vh;
+    background: url(../images/ourstory-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.banner-text{
+    width: 100%;
+    height:30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner-heading{
+   
+}
+
+.form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width:80%;
+}
+
 
 /* Media Queries */
 
@@ -334,6 +372,12 @@
 
     .biotext{
         padding: 30px 75px;
+    }
+
+    /* ------------------------------------------------------   Contact Page Elements */
+
+    .form{
+        width:50%;
     }
 
 
