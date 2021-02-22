@@ -2,6 +2,24 @@
 
 /* General */
 
+.h1{
+    color: #8aab7e;
+    font-family: "Ubuntu", sans-serif;
+    font-weight:600;
+    font-size: 1.9rem;
+    text-align: center;
+    margin:10px;
+}
+
+.h3{
+    color: #fafafa;
+    font-family: "Ubuntu", sans-serif;
+    font-weight:300;
+    font-size:1rem;
+    text-align: center;
+    margin:10px;
+}
+
 .bold{
     font-weight:bold;
 }
@@ -94,7 +112,7 @@
 .navigation{
     width:100%;
     display: flex;
-    justify-content: center;
+    justify-content: left;
 }
 
 .nav-social{
@@ -146,30 +164,13 @@
 }
 
 .hero-text{
-    width:70%;
     position: absolute;
     left:50%;
-    top:5%;
-    margin-left: -35%;
-
-}
-
-.hero-text h1{
-    color: #8aab7e;
-    font-family: "Ubuntu", sans-serif;
-    font-weight:600;
-    font-size:20px;
-    text-align: center;
-    margin:10px;
-}
-
-.hero-text h3{
-    color: #fafafa;
-    font-family: "Ubuntu", sans-serif;
-    font-weight:300;
-    font-size:16px;
-    text-align: center;
-    margin:10px;
+    width:80%;
+    top: 6%;
+    margin-left:-40%;
+    background-color: #205975;
+    border-radius: 25px;
 
 }
 
@@ -274,7 +275,10 @@
     /* Hero Image Text */
 
     .hero-text{
-        top:10%;
+    left:50%;
+    width:40%;
+    top: 6%;
+    margin-left:-20%;
     }
 
     /* Profile Image & Bio */
@@ -308,13 +312,10 @@
     /* Hero Image Text */
 
 
-    .hero-text h1{
-        font-size: 25px;
+    .h1{
+        font-size: 2.2rem;
     }
-
-    .hero-text h3{
-        font-size:18px;
-    }
+    
 
     /* Profile Image & Bio */
 
@@ -336,7 +337,7 @@
     /* Navigation */
 
     .navigation{
-        width:82%;
+        width:83%;
     }
 
 
@@ -355,6 +356,11 @@
     .biotext{
         font-size:18px;
     }
+
+    /* Hero Image Text */
+
+    
+ 
 
     
 }
@@ -391,14 +397,15 @@
 
     /* Hero Image Text */
 
-    .hero-text h1{
-        font-size: 35px;
+
+    .hero-text{
+    top: 10%;
     }
 
-    .hero-text h3{
-        font-size:25px;
+    .h1{
+        font-size: 3.5rem;
     }
-
+  
      /* Profile Image & Bio */
 
     .bioimage{
