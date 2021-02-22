@@ -154,7 +154,6 @@
 
 }
 
-
 .hero-text h1{
     color: #8aab7e;
     font-family: "Ubuntu", sans-serif;
@@ -177,7 +176,9 @@
 /* Profile Image & Bio */
 
 .biosection{
-    height:100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
 }
 
 .bioimage{
@@ -200,21 +201,27 @@
 
 }
 
+.biotext p{
+    margin-top:25px;
+    margin-bottom: 25px;
+}
+
 /* Featured & Recent Articles */
 
 .article-container{
     background-color: #205975;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-top: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .card-section{
     padding:2rem;
+    
 }
 
 .card{
     border:0;
+    
 }
 
 .card-body{
