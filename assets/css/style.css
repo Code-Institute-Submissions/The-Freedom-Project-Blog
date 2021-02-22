@@ -86,6 +86,10 @@
     background-color: #205975;
 }
 
+.bg-article{
+    background-color: #205975;
+}
+
 /* Navigation */
 
 .logo{
@@ -210,9 +214,8 @@
 /* Featured & Recent Articles */
 
 .article-container{
-    background-color: #205975;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 75px;
+    padding-bottom:75px;
 }
 
 .card-section{
@@ -236,6 +239,10 @@
     text-align: center;
     font-family: "Ubuntu", sans-serif;
     color: #484848;
+}
+
+.card-img-top{
+    border-radius: 0;
 }
 
 /* Footer */
@@ -275,10 +282,10 @@
     /* Hero Image Text */
 
     .hero-text{
-    left:50%;
-    width:40%;
-    top: 6%;
-    margin-left:-20%;
+        left:50%;
+        width:40%;
+        top: 6%;
+        margin-left:-20%;
     }
 
     /* Profile Image & Bio */
@@ -327,7 +334,14 @@
     }
 
     .biotext{
-        padding: 0 30px;
+        width:95%;
+    }
+
+    /* Featured & Recent Articles */
+
+    .article-container{
+        margin-left:5%;
+        margin-right:5%;
     }
 
 }
@@ -355,10 +369,8 @@
 
     .biotext{
         font-size:18px;
+
     }
-
-    /* Hero Image Text */
-
     
  
 
@@ -382,24 +394,24 @@
         height: 250px;
     }
 
-    .nav-social li{
+    .bg-social-icon{
         width: 60px;
         height: 60px;
     
     }
 
-    .nav-social li i {
-    width: 60px;
-    height: 60px;
-    font-size: 25px;
-    line-height: 60px;
+    .social-icon{
+        width: 60px;
+        height: 60px;
+        font-size: 25px;
+        line-height: 60px;
     }
 
     /* Hero Image Text */
 
 
     .hero-text{
-    top: 10%;
+        top: 10%;
     }
 
     .h1{
@@ -415,6 +427,13 @@
 
     .biotext{
         font-size:22px;
+    }
+
+    /* Featured & Recent Articles */
+
+    .article-container{
+        margin-left:10%;
+        margin-right:10%;
     }
 
     
