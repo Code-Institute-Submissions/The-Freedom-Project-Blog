@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
 /* Typography */
 
@@ -99,7 +99,7 @@
 }
 
 .bg-heading{
-    background-color: #205975;
+    background-color: #8aab7e;
     border-radius: 25px;
 }
 
@@ -168,13 +168,13 @@
 /* Hero Section */
 
 .opacity-container{
-    background-color: rgba(0,0,0,0.10);
+    background-color: rgba(0,0,0,0.2);
     position: relative;
     
 }
 
 .hero-image-home{
-    height:100vh;
+    height:70vh;
     background: url(../images/van.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -184,18 +184,31 @@
     
 }
 
-.hero-section{
-    position:relative;
+.hero-heading{
+    color: #fafafa;
+    font-family: "Ubuntu", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size:240%;
+    margin-top:0;
+    margin-bottom: 0;
+     
 }
 
 .hero-text{
     position: absolute;
-    left:50%;
-    width:80%;
-    top: 3%;
-    margin-left:-40%;
-
+    top:0;
+    width: 100%;
+    height: 70vh;
+    border: 10px solid;
+    border-color: #8aab7e;
 }
+
+.hero-section{
+    position:relative;
+}
+
 
 /* Profile Image & Bio */
 
@@ -393,18 +406,15 @@ body {
         width:90%;
     }
 
-    /* Hero Image Text */
+    /* Hero Image */
 
-    .hero-text{
-        width:40%;
-        margin-left:-20%;
+    .hero-heading{
+        font-size: 375%;
     }
 
     /* Profile Image & Bio */
 
-    .biotext{
-        padding: 30px 75px;
-    }
+    
 
     /* ------------------------------------------------------   Contact Page Elements */
 
@@ -432,7 +442,8 @@ body {
     }
 
     .h6{
-        font-size: 1.5rem;
+        font-size: 1.25rem;
+        width: 30%;
     }
 
     /* Navigation */
@@ -454,6 +465,12 @@ body {
         margin:10px;
     }
 
+     /* Hero Image */
+
+    .hero-heading{
+        font-size: 500%;
+    }
+
     /* Profile Image & Bio */
 
     .bio-text-section{
@@ -465,13 +482,6 @@ body {
 
     .bio-text{
         width:95%;
-    }
-
-    /* Hero Image Text */
-
-    .hero-text{
-        width:50%;
-        margin-left:-25%;
     }
 
 
@@ -498,6 +508,10 @@ body {
         font-size: 2.5rem;
     }
 
+    .h6{
+        width: 25%;
+    }
+
     /* Navigation */
 
     .navigation{
@@ -510,11 +524,10 @@ body {
         height: 175px;
     }
 
-    /* Hero Image Text */
+    /* Hero Image */
 
-
-    .hero-text{
-        top: 7%;
+    .hero-heading{
+        font-size:700%;
     }
 
     /* Profile Image & Bio */
@@ -522,6 +535,13 @@ body {
     .bioimage{
         height:250px;
         width:250px;
+    }
+
+    /* Featured & Recent Articles */
+
+    .article-container{
+        margin-left:10%;
+        margin-right:10%;
     }
     
     /* ------------------------------------------------------   Our Story Page Elements */
@@ -553,7 +573,6 @@ body {
 
     .h6{
         font-size: 2rem;
-        width: 25%;
     }
 
     .btn-general{
@@ -588,6 +607,12 @@ body {
         line-height: 60px;
     }
 
+     /* Hero Image */
+
+    .hero-heading{
+        font-size: 1000%;
+    }
+
   
      /* Profile Image & Bio */
 
@@ -597,11 +622,6 @@ body {
     }
 
     /* Featured & Recent Articles */
-
-    .article-container{
-        margin-left:10%;
-        margin-right:10%;
-    }
 
     .card-title{
         font-size: 2rem;
