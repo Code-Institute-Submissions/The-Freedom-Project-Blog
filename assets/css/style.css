@@ -428,6 +428,17 @@ body {
 
 }
 
+/* ------------------------------------------------------   Vanlife Ireland */
+
+.banner-image-vanlife-ireland{
+    height: 30vh;
+    background: url(../images/vanlife.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
 
 /* Media Queries */
 
