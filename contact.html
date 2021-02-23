@@ -67,16 +67,21 @@
         <section class="container form">
             <form class="row g-3">
                 <div class="col-12">
-                    <label for="inputEmail4" class="form-label">Name:</label>
-                    <input type="name" class="form-control" id="inputEmail4">
+                    <label for="name" class="form-label">Name*</label>
+                    <input type="name" class="form-control" id="name" required>
                 </div>
                 <div class="col-12">
-                    <label for="inputPassword4" class="form-label">Email:</label>
-                    <input type="email" class="form-control" id="inputPassword4">
+                    <label for="email" class="form-label">Email*</label>
+                    <input type="email" class="form-control" id="email" required>
                 </div>
                 <div class="col-12">
-                    <label for="inputAddress" class="form-label">Your message:</label>
-                    <textarea class="form-control" style="height: 100px"></textarea>
+                    <label for="message" class="form-label">Your message*</label>
+                    <textarea class="form-control" id="message" style="height: 100px" required></textarea>
+                </div>
+                <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="text" class="form-control" id="social" placeholder="Social Media" aria-label="Username"
+                        aria-describedby="basic-addon1">
                 </div>
                 <div class="col-12 d-flex justify-content-center">
                     <button type="submit" class="btn btn-general">Send</button>
