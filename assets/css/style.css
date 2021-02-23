@@ -34,6 +34,10 @@
     text-decoration: none;
 }
 
+.bodylink:hover{
+    color:#205975;
+}
+
 /* Buttons + Linebreaks */
 
 .linebreak{
@@ -49,7 +53,6 @@
     color: #fafafa;
     font-family: "Ubunutu", sans-serif;
     text-align: center;
-    margin-top:15px;
 }
 
 .btn-general:hover{
@@ -284,6 +287,30 @@
     border-radius: 0;
 }
 
+.card-text{
+    margin-bottom: 25px;
+}
+
+/* Email Sub */
+
+.emailsub-container{
+    margin-top:50px;
+    margin-bottom: 50px;
+    width: 90%;
+}
+
+.emailsub-header{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #205975;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.emailsub-input{
+    margin-bottom: 25px;
+}
+
 
 /* Footer */
 
@@ -456,7 +483,11 @@ body {
         font-size: 375%;
     }
 
-    /* Profile Image & Bio */
+    /* Email Sub */
+
+    .emailsub-container{
+        width: 70%;
+    }
 
     
 
@@ -600,6 +631,12 @@ body {
 
     .article-container{
         width: 80%;
+    }
+
+    /* Email Sub */
+
+    .emailsub-container{
+        width: 50%;
     }
     
     /* ------------------------------------------------------   Our Story Page Elements */
