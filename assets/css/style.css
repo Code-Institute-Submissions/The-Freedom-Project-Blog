@@ -395,6 +395,39 @@ body {
     color: #484848;
 }
 
+/* ------------------------------------------------------   DIY Van Conversion */
+
+.banner-image-camper-conversion{
+    height: 30vh;
+    background: url(../images/spanishpoint.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.coming-soon{
+    margin-top: 30%;
+    height:80vh;
+    width: 80%;
+}
+
+.coming-soon-heading{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    color: #205975;
+    text-align: center;
+
+}
+
+.coming-soon-text{
+    font-family: "Ubuntu", sans-serif;
+    color: #484848;
+    text-align: center;
+    padding-top: 20px;
+
+}
+
 
 /* Media Queries */
 
@@ -428,6 +461,13 @@ body {
         background-size: cover;
         background-position: center;
 
+    }
+
+    /* ------------------------------------------------------   DIY Van Conversion */
+
+    .coming-soon{
+        margin-top: 20%;
+        
     }
    
 }
@@ -496,6 +536,16 @@ body {
         width: 80%;
     }
 
+    /* ------------------------------------------------------   DIY Van Conversion */
+
+    .coming-soon{
+        margin-top: 10%;
+        width: 50%;
+    }
+
+    .coming-soon-text{
+        font-size: 1.25rem;
+    }
 }
 
 @media (min-width: 1440px){
@@ -639,6 +689,16 @@ body {
 
     .form-label{
         font-size: 1.5rem;
+    }
+
+     /* ------------------------------------------------------   DIY Van Conversion */
+
+    .coming-soon-text{
+        font-size: 2rem;
+    }
+
+    .coming-soon-heading{
+        font-size: 4rem;
     }
 
 }
