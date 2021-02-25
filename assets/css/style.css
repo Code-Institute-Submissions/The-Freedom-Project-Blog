@@ -223,6 +223,52 @@
 
 }
 
+/* Breadcrumb Nav */
+
+.breadcrumb-container{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    width:75%;
+}
+
+.breadcrumb{
+    display: flex;
+    justify-content: center;
+}
+
+.breadcrumb-link{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    color: #484848;
+    text-decoration: none;
+    font-size: .75rem;
+}
+
+.breadcrumb-link:hover{
+    color: #8aab7e;
+}
+
+.breadcrumb-live{
+    color: #8aab7e;
+}
+
+.breadcrumb-item+.breadcrumb-item::before{
+    float: left;
+    padding-right: .5rem;
+    color: #484848;
+    content: var(--bs-breadcrumb-divider, "/");
+    font-weight: 300;
+}
+
+.breadcrumb-item+.active::before{
+    float: left;
+    padding-right: .5rem;
+    color: #484848;
+    content: var(--bs-breadcrumb-divider, "/");
+    font-weight: 300;
+}
+
 /* Hero Section */
 
 .opacity-container{
@@ -548,47 +594,6 @@ body {
     width: 70%;
 }
 
-/* Breadcrumb Nav */
-
-.breadcrumb-container{
-    margin-top: 1rem;
-    display: flex;
-    justify-content: center;
-}
-
-.breadcrumb-link{
-    font-family: "Ubuntu", sans-serif;
-    font-weight: 300;
-    color: #484848;
-    text-decoration: none;
-    font-size: .75rem;
-}
-
-.breadcrumb-link:hover{
-    color: #8aab7e;
-}
-
-.breadcrumb-live{
-    color: #8aab7e;
-}
-
-.breadcrumb-item+.breadcrumb-item::before{
-    float: left;
-    padding-right: .5rem;
-    color: #484848;
-    content: var(--bs-breadcrumb-divider, "/");
-    font-weight: 300;
-}
-
-.breadcrumb-item+.active::before{
-    float: left;
-    padding-right: .5rem;
-    color: #484848;
-    content: var(--bs-breadcrumb-divider, "/");
-    font-weight: 300;
-}
-
-
 /* ------------------------------------------------------   Blog Page */
 
 .list-snippet-container{
@@ -621,6 +626,7 @@ body {
 }
 
 .snippet-card-title{
+    font-family: "Ubuntu", sans-serif;
     font-size: 1.5rem;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -897,6 +903,12 @@ body {
         line-height: 60px;
     }
 
+    /* Breadcrumb Nav */
+
+    .breadcrumb-link{
+        font-size: 1.2rem;
+    }
+
      /* Hero Image */
 
     .hero-heading{
@@ -971,7 +983,7 @@ body {
     }
 
     .btn-snippet{
-        font-size: 1.75rem;
+        font-size: 1.5rem;
     }
 
 }
