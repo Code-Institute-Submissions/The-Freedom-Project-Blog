@@ -40,7 +40,7 @@
 /* Buttons + Linebreaks */
 
 .linebreak{
-    width:20px;
+    width:50px;
     height:5px;
     background-color: #8aab7e;
     display:block;
@@ -62,7 +62,34 @@
 .btn-subscribe{
     margin: 20px auto;
     display: flex;
+}
 
+.btn-snippet{
+    background-color: #205975;
+    color: #fafafa;
+    font-family: "Ubunutu", sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-snippet:hover{
+    background-color: #fafafa;
+    color: #205975;
+}
+
+.btn-read-on{
+    background-color: #8aab7e;
+    color: #fafafa;
+    font-family: "Ubunutu", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn-read-on:hover{
+    background-color: #205975;
+    color: #fafafa;
 }
 
 /* Social Icons */
@@ -493,6 +520,11 @@ body {
     margin-bottom: 3%;
 }
 
+.read-on{
+    margin-bottom: 10%;
+    width: 70%;
+}
+
 /* ------------------------------------------------------   Blog Page */
 
 .list-snippet-container{
@@ -538,19 +570,6 @@ body {
 .snippet-card-img{
         border-top-left-radius: 35px;
         border-top-right-radius: 35px;
-    }
-
-.btn-snippet{
-    background-color: #205975;
-    color: #fafafa;
-    font-family: "Ubunutu", sans-serif;
-    text-align: center;
-    font-weight: bold;
-}
-
-.btn-snippet:hover{
-    background-color: #fafafa;
-    color: #205975;
 }
 
 /* ------------------------------------------------------   Blog Page Card Thumbnails */
@@ -701,6 +720,10 @@ body {
     width: 70%;
 
     }
+
+    .read-on{
+    width: 50%;
+    }
 }
 
 @media (min-width: 1440px){
@@ -790,15 +813,11 @@ body {
         font-size:1.5rem;
     }
 
-    .h1{
-        font-size: 4.25rem;
-    }
-
-    .h6{
-        font-size: 2rem;
-    }
-
     .btn-general{
+        font-size: 1.5rem;
+    }
+
+    .btn-read-on{
         font-size: 1.5rem;
     }
 
@@ -881,6 +900,7 @@ body {
 
     .blog-post{
     width: 100%;
+    font-size:1.75rem;
 
     }
 
