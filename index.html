@@ -15,10 +15,10 @@
 <body>
     <header>
         <!-- Responsive nav sourced from Bootstrap (https://getbootstrap.com/docs/5.0/components/navbar/) -->
-        <nav class="navbar navbar-expand-md bg-nav">
+        <nav class="navbar navbar-expand-lg bg-nav">
             <div class="container-fluid">
                 <a class="navbar-brand logo" href="index.html">&nbsp;</a>
-                <button class="toggle-nav d-md-none" type="button" data-bs-toggle="collapse"
+                <button class="toggle-nav d-lg-none" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="toggle-icon"><i class="fas fa-bars"></i></span>
@@ -40,14 +40,22 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="d-md-none d-lg-block">
+                    <div>
                         <ul class="nav-social">
                             <li class="bg-social-icon"><a href="https://www.instagram.com/thefreedomproject.blog/"
                                     target="_blank"><i class="fab fa-instagram bold social-icon"></i></a></li>
                             <li class="bg-social-icon"><a href="https://www.tiktok.com/@thefreedomproject?lang=en/"
                                     target="_blank"><i class="fab fa-tiktok social-icon"></i></a></li>
+                            <!-- Collapsible search bar with search icon - to be used when search functionality is possible-->
+                            <!-- <li class="bg-social-icon" data-bs-toggle="collapse" data-bs-target="#searchCollapse"
+                                aria-controls="searchcollapse" aria-expanded="false" aria-label="Open Search"><i
+                                    class="fas fa-search social-icon"></i></li> -->
                         </ul>
                     </div>
+                    <!-- <form class="collapse search-container" id="searchCollapse">
+                        <input class="form-control search" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-search" type="submit">Search</button>
+                    </form> -->
                 </div>
             </div>
         </nav>

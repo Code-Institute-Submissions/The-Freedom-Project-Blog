@@ -92,13 +92,25 @@
     color: #fafafa;
 }
 
-/* Social Icons */
+.btn-search{
+    background-color: #8aab7e;
+    color: #fafafa;
+    font-family: "Ubunutu", sans-serif;
+    text-align: center;
+    vertical-align: top;
+    margin-left:2px;
+}
+
+.btn-search:hover{
+    background-color: #fafafa;
+    color: #205975;
+}
+
+/* Social Icons & Search */
 
 .bg-social-icon{
     list-style-type: none;
     display: inline-block;
-    width: 35px;
-    height: 35px;
     border-radius: 50%;
     background-color: #fafafa;
 }
@@ -120,6 +132,17 @@
     -moz-transition: all 0.35s ease-out;
     -webkit-transition: all 0.35s ease-out;
     -o-transition: all 0.35s ease-out;
+}
+
+.search{
+    width:60%;
+    display: inline-block;
+}
+
+.search-container{
+    margin:5% auto;
+    display: flex;
+    justify-content: center;
 }
 
 /* Backgrounds Colors */
@@ -167,7 +190,8 @@
 }
 
 .nav-social{
-    padding:15px;
+    padding-top:5%;
+    padding-left:0;
     margin: 0 auto;
     text-align:center;
 }
@@ -627,12 +651,6 @@ body {
 
 @media (min-width: 768px){
 
-    /* Navigation */
-
-    .navigation{
-        width:90%;
-    }
-
     /* Hero Image */
 
     .hero-heading{
@@ -698,10 +716,6 @@ body {
 
     .navigation{
         width:78%;
-    }
-
-    .nav-social{
-        margin-left:75px;
     }
 
     .link{
@@ -874,12 +888,6 @@ body {
     .logo{
         width: 250px;
         height: 250px;
-    }
-
-    .bg-social-icon{
-        width: 60px;
-        height: 60px;
-    
     }
 
     .social-icon{
