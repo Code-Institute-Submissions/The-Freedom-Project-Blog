@@ -264,7 +264,6 @@
 
 .card{
     border:0;
-    
 }
 
 .card-body{
@@ -454,7 +453,7 @@ body {
 
 }
 
-/* ------------------------------------------------------   Article Page */
+/* ------------------------------------------------------   Blog Post */
 
 .bp-container{
     display: flex;
@@ -494,6 +493,77 @@ body {
     margin-bottom: 3%;
 }
 
+/* ------------------------------------------------------   Blog Page */
+
+.list-snippet-container{
+    margin: 10% auto;
+    width: 90%;
+}
+
+.snippet-container{
+    margin: 25px auto;
+}
+
+.bg-card{
+    background-color: #8aab7e;
+    padding-top:5%;
+    padding-bottom: 5%;
+}
+
+.snippet-card-body{
+    padding: 25px;
+    background-color: #8aab7e;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+.snippet-card-text{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    color: #fafafa;
+    margin-bottom: 15px;
+}
+
+.snippet-card-title{
+    font-size: 1.5rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #fafafa;
+}
+
+.snippet-img-container{
+    height:200px;
+}
+
+.snippet-card-img{
+        border-top-left-radius: 35px;
+        border-top-right-radius: 35px;
+    }
+
+.btn-snippet{
+    background-color: #205975;
+    color: #fafafa;
+    font-family: "Ubunutu", sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.btn-snippet:hover{
+    background-color: #fafafa;
+    color: #205975;
+}
+
+/* ------------------------------------------------------   Blog Page Card Thumbnails */
+
+.card-img-left-1{
+    width: 100%;
+    height: 100%;
+    background: url(../images/diy-bp-thumb-1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
 /* Media Queries */
 
 @media (min-width: 768px){
@@ -529,6 +599,25 @@ body {
     .coming-soon{
         margin-top: 20%;
         
+    }
+
+    /* ------------------------------------------------------   Blog Page */
+
+    .snippet-img-container{
+    height:100%;
+    }
+
+    .snippet-card-body{
+        padding:40px;
+        border-top-right-radius: 35px;
+        border-bottom-right-radius: 35px;
+        border-bottom-left-radius: 0;
+    }
+
+    .snippet-card-img{
+        border-top-left-radius: 35px;
+        border-bottom-left-radius: 35px;
+        border-top-right-radius: 0;
     }
    
 }
@@ -677,6 +766,20 @@ body {
     width: 60%;
 
     }
+
+    /* ------------------------------------------------------   Blog Page */
+
+    .snippet-card-text{
+        font-size: 1.25rem;;
+    }
+
+    .snippet-card-title{
+    font-size: 1.75rem;
+    }
+
+    .snippet-card-body{
+        padding:50px;
+    }
 }
 
 @media (min-width: 2560px){
@@ -779,6 +882,28 @@ body {
     .blog-post{
     width: 100%;
 
+    }
+
+    /* ------------------------------------------------------   Blog Page */
+
+    .snippet-container{
+    width: 100%;
+    }
+
+    .snippet-card-body{
+    font-size:1.5rem;
+    }
+
+    .snippet-card-text{
+        font-size: 1.75rem;;
+    }
+
+    .snippet-card-title{
+    font-size: 2.5rem;
+    }
+
+    .btn-snippet{
+        font-size: 1.75rem;
     }
 
 }
