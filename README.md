@@ -11,6 +11,7 @@ Blog Goals:
 - Provide a step by step guide to getting a converted van on the road in Ireland (inspection, registration, and insurance).
 - Detail my own conversion experience with advice for others.
 - Provide insight and tips on full-time vanlife in Ireland.
+
 ## **UX**
 
 ### **Who is this website for?**
@@ -56,10 +57,13 @@ The home page features a large hero-image and heading, allowing users to immedia
 The Our Story page features a profile image and text detailing who is behind the blog and why it exists.
 
 ### **Contact:**
-The contact page features a large banner image and a contact form. The required elements of the form are the name, email, and message. Users also have the option to include their social media handle. Form submissions are collected using [FormBackend.com](https://www.formbackend.com/).
+The contact page features a large banner image with an overlayed heading and a contact form. The required elements of the form are the name, email, and message. Users also have the option to include their social media handle. Form submissions are collected using [FormBackend.com](https://www.formbackend.com/).
 
 ### **DIY Van Conversion & Vanlife in Ireland:**
-Each of these pages can be seen as a blog category. Keeping the content separate will allow users to more efficiently source information. The DIY Camper Conversion page currently features a single article. Articles on these pages are displayed in the form of cards with an image, heading, snippet, and a link to the full text. Content for the Vanlife in Ireland page has yet to be created and so a temporary Coming Soon page has been put in place.
+Each of these pages can be seen as a blog category. Keeping the content separate will allow users to more efficiently source information. The DIY Camper Conversion page currently features a single article. Articles on these pages are displayed in the form of cards with an image, heading, snippet, and a link to the full text. Content for the Vanlife in Ireland page has yet to be created and so a temporary Coming Soon page has been put in place. Each page features a banner image with an overlayed page heading.
+
+### **Blog Article:**
+Each blog article features a banner image with the category heading overlayed. Each article features a 'read on' button at the end of the content allowing users to navigate easily to other articles within the category.
 
 ### **Existing features:**
 - Header Logo - Allows users to easily identify the brand. Clicking the logo returns users to the home page.  

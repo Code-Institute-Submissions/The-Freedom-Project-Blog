@@ -52,17 +52,24 @@
 - Adjust screen sizes and confirm font sizes adjust correctly. - *Breadcrumb font size required adjusting on screens 2560 px +.*
 
 ### DIY Camper Conversion 
-- Adjust screen sizes and confirm banner image and text adjust correctly.
+- Adjust screen sizes and confirm banner image and heading adjust correctly.
 - Click and confirm each breadcrumb link brings you to the associated page.
 - Click and confirm the article card button brings you to the associated page.
 - Adjust screen sizes and confirm article card image moves from being left of card text to above card text on mobile devices.
 
+### Blog Article
+- Adjust screen sizes and confirm banner image and heading adjust correctly.
+- Click and confirm each breadcrumb link brings you to the associated page.
+- Adjust screen sizes and confirm content width adjusts correctly.
+- Adjust screen sizes and confirm font size adjusts correctly.
+- Click and confirm all body links to outside sources open in a new tab. - *This did not happen. Target:_blank was added to every required link and re tested.*
+
 ### Vanlife in Ireland
--  Adjust screen sizes and confirm banner image and text adjust correctly.
+-  Adjust screen sizes and confirm banner image and heading adjust correctly.
 -  Adjust screen sizes and confirm content container width adjusts correctly.
 
 ### Contact
-- Adjust screen sizes and confirm banner image and text adjust correctly, and that banner image changes at 768 px +.
+- Adjust screen sizes and confirm banner image and heading adjust correctly, and that banner image changes at 768 px +.
 - Confirm that form validation is working correctly by attempting to send a form without any inputs. Name, email, and message should display errors.
 - Send test form and confirm the link to [FormBackend](https://www.formbackend.com/) is working correctly.
 - Adjust screen sizes and confirm form width adjusts correctly.
