@@ -17,7 +17,7 @@
         <header>
             <!-- Responsive nav sourced from Bootstrap (https://getbootstrap.com/docs/5.0/components/navbar/) -->
             <nav class="navbar navbar-expand-md bg-nav">
-                <div class="container-fluid">
+                <div class="container-fluid max-nav">
                     <a class="navbar-brand logo" href="index.html">&nbsp;</a>
                     <button class="toggle-nav d-md-none" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -61,43 +61,45 @@
                 </div>
             </div>
         </section>
-        <!-- Contact Form -->
-        <section class="container form">
-            <h2 class="d-none">Contact</h2>
-            <form method="POST" name="contact-form" action="https://www.formbackend.com/f/e053dfad74a9826e"
-                class="needs-validation" novalidate>
-                <div class="col-12 mb-3">
-                    <label for="name" class="form-label">Name*</label>
-                    <input type="text" class="form-control" id="name" name="sender" required>
-                    <div class="invalid-feedback">
-                        Please include your name.
+        <main class="max-body">
+            <!-- Contact Form -->
+            <section class="container form">
+                <h2 class="d-none">Contact</h2>
+                <form method="POST" name="contact-form" action="https://www.formbackend.com/f/e053dfad74a9826e"
+                    class="needs-validation" novalidate>
+                    <div class="col-12 mb-3">
+                        <label for="name" class="form-label">Name*</label>
+                        <input type="text" class="form-control" id="name" name="sender" required>
+                        <div class="invalid-feedback">
+                            Please include your name.
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 mb-3">
-                    <label for="email" class="form-label">Email*</label>
-                    <input type="email" class="form-control" id="email" name="senderEmail" required>
-                    <div class="invalid-feedback">
-                        Please include your email.
+                    <div class="col-12 mb-3">
+                        <label for="email" class="form-label">Email*</label>
+                        <input type="email" class="form-control" id="email" name="senderEmail" required>
+                        <div class="invalid-feedback">
+                            Please include your email.
+                        </div>
                     </div>
-                </div>
-                <div class="col-12 mb-3">
-                    <label for="message" class="form-label">Your message*</label>
-                    <textarea class="form-control" id="message" style="height: 100px" name="message"
-                        required></textarea>
-                    <div class="invalid-feedback">
-                        Please include a short message.
+                    <div class="col-12 mb-3">
+                        <label for="message" class="form-label">Your message*</label>
+                        <textarea class="form-control" id="message" style="height: 100px" name="message"
+                            required></textarea>
+                        <div class="invalid-feedback">
+                            Please include a short message.
+                        </div>
                     </div>
-                </div>
-                <div class="input-group mb-5">
-                    <span class="input-group-text" id="basic-addon1">@</span>
-                    <input type="text" class="form-control" id="social" placeholder="Social Media" name="social"
-                        aria-label="Username" aria-describedby="basic-addon1">
-                </div>
-                <div class="col-12 d-flex justify-content-center">
-                    <button type="submit" class="btn btn-general">Send</button>
-                </div>
-            </form>
-        </section>
+                    <div class="input-group mb-5">
+                        <span class="input-group-text" id="basic-addon1">@</span>
+                        <input type="text" class="form-control" id="social" placeholder="Social Media" name="social"
+                            aria-label="Username" aria-describedby="basic-addon1">
+                    </div>
+                    <div class="col-12 d-flex justify-content-center">
+                        <button type="submit" class="btn btn-general">Send</button>
+                    </div>
+                </form>
+            </section>
+        </main>
     </div>
     <footer class="container-fluid">
         <div class="row footer-section">

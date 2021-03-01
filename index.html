@@ -16,7 +16,7 @@
     <header>
         <!-- Responsive nav sourced from Bootstrap (https://getbootstrap.com/docs/5.0/components/navbar/) -->
         <nav class="navbar navbar-expand-lg bg-nav">
-            <div class="container-fluid">
+            <div class="container-fluid max-nav">
                 <a class="navbar-brand logo" href="index.html"
                     title="The Freedom Project | An Irish Vanlife Blog">&nbsp;</a>
                 <button class="toggle-nav d-lg-none" type="button" data-bs-toggle="collapse"
@@ -61,120 +61,125 @@
             </div>
         </nav>
     </header>
-    <!-- Hero Section -->
-    <section class="container-fluid g-0">
-        <div class="opacity-container">
-            <div class="hero-image-home"></div>
-            <div class="hero-text">
-                <h1 class="hero-heading">An Irish Vanlife Blog</h1>
-            </div>
-        </div>
-    </section>
-    <!-- Profile Image & Bio -->
-    <section class="container-fluid d-flex justify-content-center">
-        <h2 class="d-none">Our Story</h2>
-        <div class="row biosection">
-            <div class="col-12 col-lg-4">
-                <!-- Profile Image -->
-                <div class="bioimage"></div>
-            </div>
-            <div class="col-12 col-lg-8 bio-text-section">
-                <!-- Bio -->
-                <div class="biotext">
-                    <p>Welcome to the Freedom Project, an Irish vanlife blog! My name is George; I live and travel
-                        full-time in my van, 'Goats Cheese', with my little rotti companion, Zayda. Originally from
-                        Dublin, we
-                        travel all over Ireland and Europe, surfing, hiking, and exploring. On this blog, I have
-                        detailed my entire conversion experience, do's and don'ts, what I would change, what I would
-                        keep, how to get a van on the road in Ireland (registration, tax, and insurance), and an inside
-                        look into full-time vanlife in Ireland. You can read more about our story <a
-                            href="ourstory.html" class="bodylink">here</a>. I hope you
-                        enjoy, and should you have any questions, don't be afraid to get in touch!</p>
+    <main class="max-body">
+        <!-- Hero Section -->
+        <section class="container-fluid g-0">
+            <div class="opacity-container">
+                <div class="hero-image-home"></div>
+                <div class="hero-text">
+                    <h1 class="hero-heading">An Irish Vanlife Blog</h1>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Featured & Recent Articles -->
-    <!-- Cards sourced from Bootstrap (https://getbootstrap.com/docs/5.0/components/card/) -->
-    <section class="container-fluid bg-article d-flex justify-content-center">
-        <div class="row article-container">
-            <div class="col-md-12 col-lg-4 card-section">
-                <div class="card" style="width: 100%;">
-                    <div class="card-header">
-                        Featured
-                    </div>
-                    <img src="assets/images/van-snow.jpg" class="card-img-top"
-                        alt="Van parked in a snow covered forest car park in Enniskerry, Co. Dublin">
-                    <div class="card-body">
-                        <h5 class="card-title">5 Steps To Get Your Van On The Road</h5>
-                        <p class="card-text">Getting a self converted van on the road in Ireland can be suprisingly
-                            tricky. Here I have a handy step by step guide on how to get your home on wheels registered,
-                            taxed, insured, and ready for the open road.</p>
-                        <a href="get-your-van-road-ready.html" class="btn btn-general">Check it out</a>
+        </section>
+        <!-- Profile Image & Bio -->
+        <section class="container-fluid d-flex justify-content-center">
+            <h2 class="d-none">Our Story</h2>
+            <div class="row biosection">
+                <div class="col-12 col-lg-4">
+                    <!-- Profile Image -->
+                    <div class="bioimage"></div>
+                </div>
+                <div class="col-12 col-lg-8 bio-text-section">
+                    <!-- Bio -->
+                    <div class="biotext">
+                        <p>Welcome to the Freedom Project, an Irish vanlife blog! My name is George; I live and travel
+                            full-time in my van, 'Goats Cheese', with my little rotti companion, Zayda. Originally from
+                            Dublin, we
+                            travel all over Ireland and Europe, surfing, hiking, and exploring. On this blog, I have
+                            detailed my entire conversion experience, do's and don'ts, what I would change, what I would
+                            keep, how to get a van on the road in Ireland (registration, tax, and insurance), and an
+                            inside
+                            look into full-time vanlife in Ireland. You can read more about our story <a
+                                href="ourstory.html" class="bodylink">here</a>. I hope you
+                            enjoy, and should you have any questions, don't be afraid to get in touch!</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-4 card-section">
-                <div class="card" style="width: 100%;">
-                    <div class="card-header">
-                        Recent | DIY Van Conversion
-                    </div>
-                    <img src="assets/images/van-sun.jpg" class="card-img-top"
-                        alt="Van parked in the Wicklow mountains as sun rises">
-                    <div class="card-body">
-                        <h5 class="card-title">Coming Soon</h5>
-                        <p class="card-text">Articles detailing my full van conversion are in the works, check back
-                            soon! You can subscribe below to get notified.</p>
-                        <a href="diycamperconversion.html" class="btn btn-general">Check it out</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 col-lg-4 card-section">
-                <div class="card" style="width: 100%;">
-                    <div class="card-header">
-                        Recent | Vanlife in Ireland
-                    </div>
-                    <img src="assets/images/van-night.jpg" class="card-img-top"
-                        alt="Van parked at night at Fanore beach in county Clare">
-                    <div class="card-body">
-                        <h5 class="card-title">Coming Soon</h5>
-                        <p class="card-text">Articles with tips and advice on full-time vanlife in Ireland will feature
-                            here soon, subscribe below to get
-                            notified!</p>
-                        <a href="vanlifeireland.html" class="btn btn-general">Check it out</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Email Sub Section -->
-    <section class="container-fluid d-flex justify-content-center emailsub-container">
-        <div id="mc_embed_signup" class="row">
-            <h2 class="col-12 emailsub-header">Subscribe for updates!</h2>
-            <div class="row">
-                <div class="col-12">
-                    <!-- Email sub sourced from Mail Chimp (https://mailchimp.com/) -->
-                    <form
-                        action="https://gmail.us1.list-manage.com/subscribe/post?u=4be784f130875c2a4eee67c32&amp;id=632a602b72"
-                        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-                        class="validate needs-validation" target="_blank" novalidate>
-                        <div id="mc_embed_signup_scroll">
-                            <input type="email" value="" class="form-control" name="EMAIL" id="mce-EMAIL"
-                                placeholder="Email Address" required>
-                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-                                    name="b_4be784f130875c2a4eee67c32_632a602b72" tabindex="-1" value="">
-                            </div>
-                            <div class="clear">
-                                <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
-                                    class="btn btn-general btn-subscribe">
-                            </div>
+        </section>
+        <!-- Featured & Recent Articles -->
+        <!-- Cards sourced from Bootstrap (https://getbootstrap.com/docs/5.0/components/card/) -->
+        <section class="container-fluid bg-article d-flex justify-content-center">
+            <div class="row article-container">
+                <div class="col-md-12 col-lg-4 card-section">
+                    <div class="card" style="width: 100%;">
+                        <div class="card-header">
+                            Featured
                         </div>
-                    </form>
+                        <img src="assets/images/van-snow.jpg" class="card-img-top"
+                            alt="Van parked in a snow covered forest car park in Enniskerry, Co. Dublin">
+                        <div class="card-body">
+                            <h5 class="card-title">5 Steps To Get Your Van On The Road</h5>
+                            <p class="card-text">Getting a self converted van on the road in Ireland can be suprisingly
+                                tricky. Here I have a handy step by step guide on how to get your home on wheels
+                                registered,
+                                taxed, insured, and ready for the open road.</p>
+                            <a href="get-your-van-road-ready.html" class="btn btn-general">Check it out</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 card-section">
+                    <div class="card" style="width: 100%;">
+                        <div class="card-header">
+                            Recent | DIY Van Conversion
+                        </div>
+                        <img src="assets/images/van-sun.jpg" class="card-img-top"
+                            alt="Van parked in the Wicklow mountains as sun rises">
+                        <div class="card-body">
+                            <h5 class="card-title">Coming Soon</h5>
+                            <p class="card-text">Articles detailing my full van conversion are in the works, check back
+                                soon! You can subscribe below to get notified.</p>
+                            <a href="diycamperconversion.html" class="btn btn-general">Check it out</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 card-section">
+                    <div class="card" style="width: 100%;">
+                        <div class="card-header">
+                            Recent | Vanlife in Ireland
+                        </div>
+                        <img src="assets/images/van-night.jpg" class="card-img-top"
+                            alt="Van parked at night at Fanore beach in county Clare">
+                        <div class="card-body">
+                            <h5 class="card-title">Coming Soon</h5>
+                            <p class="card-text">Articles with tips and advice on full-time vanlife in Ireland will
+                                feature
+                                here soon, subscribe below to get
+                                notified!</p>
+                            <a href="vanlifeireland.html" class="btn btn-general">Check it out</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <!-- Email Sub Section -->
+        <section class="container-fluid d-flex justify-content-center emailsub-container">
+            <div id="mc_embed_signup" class="row">
+                <h2 class="col-12 emailsub-header">Subscribe for updates!</h2>
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Email sub sourced from Mail Chimp (https://mailchimp.com/) -->
+                        <form
+                            action="https://gmail.us1.list-manage.com/subscribe/post?u=4be784f130875c2a4eee67c32&amp;id=632a602b72"
+                            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
+                            class="validate needs-validation" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                                <input type="email" value="" class="form-control" name="EMAIL" id="mce-EMAIL"
+                                    placeholder="Email Address" required>
+                                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                                        name="b_4be784f130875c2a4eee67c32_632a602b72" tabindex="-1" value="">
+                                </div>
+                                <div class="clear">
+                                    <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                                        class="btn btn-general btn-subscribe">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
     <footer class="container-fluid">
         <div class="row footer-section">
             <div class="col">
