@@ -12,8 +12,6 @@ Blog Goals:
 - Detail my own conversion experience with advice for others.
 - Provide insight and tips on full-time vanlife in Ireland.
 
----
-
 ## **UX**
 
 ### **Strategy**
@@ -91,8 +89,6 @@ Color scheme was created with the aid of [Coolors.co](https://coolors.co/).
 #### **Typography:**
 The font to be used throughout the site is ["Ubuntu"](https://fonts.google.com/specimen/Ubuntu?preview.text_type=custom) sourced from [Google Fonts](https://fonts.google.com/).
 
----
-
 ## **FEATURES**
 Each page has a responsive navigation bar with the logo to the left, page links in the centre, and social media links to the right. Each page has a footer with secondary navigation and social media links.
 
@@ -133,8 +129,6 @@ Each blog article features a banner image with the category heading overlayed. E
 - Footer Subscription Sign Up Box - To allow users to sign up to the blog's email list from any page.
 - GDPR Pop Up - To allow users to approve or deny the processing of their data. This is required under EU data protection law.
 
----
-
 ## **TECHNOLOGIES USED**
 - This project uses HTML and CSS programming languages. Javascript is used for form validation and to create a responsive nav. All JS is sourced from [Bootstrap](https://getbootstrap.com/).
 - [Gitpod](https://www.gitpod.io/) - Developers IDE.
@@ -146,12 +140,8 @@ Each blog article features a banner image with the category heading overlayed. E
 - [Pixlr](https://pixlr.com/x/) - Used to edit images.
 - [TinyJPG](https://tinyjpg.com/). - Used to compress images.
 
----
-
 ## **TESTING**
 - [Testing.md](testing.md)
-
----
 
 ## **DEPLOYMENT**
 
@@ -184,8 +174,6 @@ To deploy, the following steps should be taken:
 - The page will reload.
 - Navigate back down to the GitHub Pages section to find the deployed [URL](https://georgedagg.github.io/The-Freedom-Project-Blog/).
 
----
-
 ## **CREDITS**
 
 ### **Individuals:**
@@ -195,7 +183,6 @@ To deploy, the following steps should be taken:
 - An issue regarding the opacity container being displayed over the hero-image on the home screen was solved thanks to a previous question on [stackoverflow](https://stackoverflow.com/questions/15782078/bring-element-to-front-using-css).
 - A sticky footer was used on several pages that had insufficient content for larger screen resolutions. The code was sourced from an article on [CSS Tricks](https://css-tricks.com/couple-takes-sticky-footer/).
 - How to include a favicon was found on [W3](https://www.w3.org/2005/10/howto-favicon).
-
 
 ### **A key takeaway from my first development project:**
 Once the UX design phase is complete build a project roadmap. Break the project down into logical sections and sub sections. List the sub sections in the order you are going to create them. Complete a sub, commit, complete another sub, commit, repeat until the section is one hundred percent complete and commit. Don't chop and change between subs and sections. This will complete the project in a logical order, improve project completion time and improve commits.  
