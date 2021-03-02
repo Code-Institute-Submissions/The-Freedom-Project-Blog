@@ -75,9 +75,9 @@
 - Adjust screen sizes and confirm form width adjusts correctly.
 
 ## Performance Testing
-Using Google Lighthouse several issues were identified in the performance and accessability catagories. The following changes were made:
+Using Google Lighthouse several issues were identified in the performance and accessibility categories. The following changes were made:
 
-### Accessability
+### Accessibility
 - Titles were created for social media icons on each page.
 - Aria label was added to the email subscription sign up box on the home page.
 - Aria Labels were added to body links throughout.
