@@ -1,6 +1,6 @@
 # Testing
-- Site CSS was put through the W3C CSS Validator with no errors. 
-- All HTML pages were put through the W3C Markup Validator with no errors.
+- Site CSS was put through the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) with no errors. 
+- All HTML pages were put through the [W3C Markup Validator](https://validator.w3.org/) with no errors.
 
 ## Testing User Stories:
 1. *As a new user, I want to be able to easily navigate the website to find the content I am looking for.*
@@ -73,3 +73,24 @@
 - Confirm that form validation is working correctly by attempting to send a form without any inputs. Name, email, and message should display errors.
 - Send test form and confirm the link to [FormBackend](https://www.formbackend.com/) is working correctly.
 - Adjust screen sizes and confirm form width adjusts correctly.
+
+## Performance Testing
+Using Google Lighthouse several issues were identified in the performance and accessability catagories. The following changes were made:
+
+### Accessability
+- Titles were created for social media icons on each page.
+- Aria label was added to the email subscription sign up box on the home page.
+- Aria Labels were added to body links throughout.
+
+### Performance
+- Images were compressed using [TinyJPG](https://tinyjpg.com/).
+
+## Browser Compatability Testing
+I used [Powermapper.com](https://www.powermapper.com/products/sortsite/try/) to help test the websites browser compatibility. The following errors were found and corrected:
+- Meta description tags were added to the head element of each page.
+- Page titles were changed to be unique to each page.
+- A h1 heading was added to [Our Story](https://georgedagg.github.io/The-Freedom-Project-Blog/ourstory.html) to comply with Bing webmaster guidelines.
+- To avoid multiple h1 headings on a single page, the banner heading on the [Article Page](https://georgedagg.github.io/The-Freedom-Project-Blog/get-your-van-road-ready.html) was changed to a h2 heading.
+- Images were updated with title tags.
+
+I also viewed the website on multiple browsers, including Chrome, Firefox, Safari, and Microsoft Edge, on multiple devices, confirming that the website was visually consistent.
